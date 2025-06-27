@@ -6,5 +6,6 @@ public class AdminPageController {
 	@GetMapping("/")
 	public String Mainview() {
 		
+		return "/mainView";
 	}
 }
